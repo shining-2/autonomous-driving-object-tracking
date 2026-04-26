@@ -1,0 +1,15 @@
+# kitti.yaml - 自动驾驶目标检测配置文件
+
+# 1. 数据集根目录 (绝对路径最稳妥)
+path: D:/Datasets/KITTI/yolo_data
+
+# 2. 训练/验证集相对路径 (相对于上面的 path)
+train: images/train
+val: images/val
+
+# 3. 类别信息
+nc: 3  # 类别数量 (Number of Classes)
+names:
+  0: vehicle    # 对应你脚本里的 Car, Van, Truck
+  1: pedestrian # 对应你脚本里的 Pedestrian, Person_sitting
+  2: cyclist    # 对应你脚本里的 Cyclist

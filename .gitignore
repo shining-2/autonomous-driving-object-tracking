@@ -1,0 +1,20 @@
+# 屏蔽数据集和图片
+D:/Datasets/
+yolo_data/
+image_2/
+label_2/
+*.png
+*.jpg
+*.mp4
+
+# 屏蔽训练产物
+runs/
+*.cache
+*.pt
+*.onnx
+
+# 屏蔽环境
+.venv/
+.idea/
+.vscode/
+ultralytics/
